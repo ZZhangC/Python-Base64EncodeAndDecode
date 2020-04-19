@@ -229,10 +229,10 @@ def b64decode(s):
 
 
 
-#程序入口
-string = ' '
-string = input("string:")
-res = b64encode(string)
-print(res)
-res = b64decode(res)
-print(res)
+if __name__ == '__main__':
+    string = ' '
+    string = input("string:")
+    res = b64encode(string)
+    print(res)
+    res = b64decode(res)
+    print(res)
